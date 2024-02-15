@@ -1,5 +1,5 @@
 FROM ubuntu:22.04
-COPY .
+COPY . .
 RUN apt-get install virtualbox
 RUN apt-get install vagrant
 CMD vagrant up
