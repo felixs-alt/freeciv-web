@@ -27,7 +27,6 @@ RUN useradd -m docker && echo "docker:docker" | chpasswd && adduser docker sudo 
     chmod 0440 /etc/sudoers.d/docker
 
 ## Add relevant content - to be pruned in the future
-COPY .git /docker/.git
 COPY freeciv /docker/freeciv
 COPY freeciv-proxy /docker/freeciv-proxy
 COPY freeciv-web /docker/freeciv-web
