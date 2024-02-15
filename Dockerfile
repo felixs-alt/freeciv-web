@@ -5,4 +5,3 @@ RUN apt-get install -y virtualbox
 RUN apt-get install -y vagrant
 RUN cd ./freeciv-web
 CMD vagrant up
-CMD vagrant ssh
