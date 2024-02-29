@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM ubuntu:latest
 COPY . .
 RUN ls
 RUN apt-get update
